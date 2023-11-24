@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>F@#K</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+   <!--   <header>
+    <div>
+        <nav>
+            <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">service</a></li>
+            <li><a href="">portifolio</a></li>
+            <li><a href="">About</a></li>
+            </ul>
+        </nav>
+       <div>
+            <a href="">😊</a>
+            <a href="">😂</a>
+            <a href="">👍</a>
+        </div>
+    </div>
+</header> -->
+<main>
+    <p>Dropdown List</p>
+    <select name="" id="sample">
+        <option value="Apples">Apples</option>
+        <option value="Oranges">Oranges</option>
+        <option value="grapes">Grapes</option>
+        <option value="Bannes">Bannes</option>
+        <option value="Strawberries">Strawberries</option>
+    </select>
+    <button onclick="getValue();">Get Value</button>
+     <p>Dropdown List(Multiple Choice)</p>
+    <select name="" id="sample1" multiple>
+        <option value="Apples">Apples</option>
+        <option value="Oranges">Oranges</option>
+        <option value="grapes">Grapes</option>
+        <option value="Bannes">Bannes</option>
+        <option value="Strawberries">Strawberries</option>
+    </select>
+    <button onclick="getValue();">Get Value</button>
+    <br>
+    <form action="page handler.html" method="post" accept-charset="" autocomplete="on" enctype="application/x-www-form-urlencoded" target="_blank">
+     <p>Input Type Text</p>
+    <input type="text" name="fullname" placeholder="Full Name"/><br>
+    <input type="text" name="Age" placeholder="Age"/><br>
+    <p>Input Type email</p>
+    <input type="email" name="Email" placeholder="Email"/><br>
+    <p>Input Type Password</p>
+    <input type="password" name="Password" placeholder="Password"/><br>
+    <input type="submit" name="log in"><br>
+    <p>Input Type color</p>
+    <input type="color" id="color"><br>
+    <button onclick="getValue()"> Get Value</button><br>
+    <p>Input Type time</p>
+    <input type="time" id="time"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type Date</p>
+    <input type="date" id="date"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type datetime-local</p>
+    <input type="datetime-local" id="datetime-local"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type week</p>
+     <input type="week" id="week"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type month</p>
+     <input type="month" id="month"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type checkbox</p>
+    <input type="checkbox" id="checkbox"><br>
+    <button onclick="getValue()"> Get Value </button><br> 
+    <p>Input Type hidden</p>
+    <input type="hidden" id="hidden" value="F@#k"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type number</p>
+    <input type="number" id="number"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type file</p>
+    <input type="file" id="file" onchange="readFile();"><br>
+    <!-- <button onclick="getValue()"> Get Value </button><br> -->
+    <img src="" alt="the image file goes here" id="result"><br>
+    <p>Input Type radio</p>
+    <label for="Male">Male</label><br>
+    <input type="radio" name="gender" value="Male" id="Male"><br>
+    <label for="female">Female</label><br>
+    <input type="radio" name="gender" value="Female" id="Female"><br>
+    <button onclick="getValue()"> Get Value</button>
+    <p>Input Type range</p>
+    <input type="range" id="range"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type search</p>
+    <input type="search" id="search"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type tel</p>
+    <input type="tel" id="tel"><br>
+    <button onclick="getValue()">Get Value</button><br>
+    <p>Input Type url</p>
+    <input type="url" id="url"><br>
+    <button onclick="getValue()">Get Value</button><br>
+</form>
+<h3>HTML5 Form Elements Attributes</h3>
+<label >
+    The Sentences value:
+    <input type="text" autocapitalize="Sentences"> 
+</label>
+<br>
+<label >
+    The words value:
+    <input type="text" autocapitalize="words"> 
+</label>
+<br>
+<label >
+    The characters value:
+    <input type="text" autocapitalize="characters"> 
+</label>
+<br>
+<label >
+    turning autocapitalize off:
+    <input type="text" autocapitalize="off"> 
+</label>
+<br>
+<p>autocomplete</p>
+<label >
+    turning autocomplete off:
+    <input type="text" autocomplete="off"> 
+</label>
+<br>
+<label >
+    turning autocomplete on:
+    <input type="text" autocomplete="on"> 
+</label>
+<br>
+ <script type="text/javascript">
+    function getValue() {
+        alert(document.getElementById("color").value)
+    }
+    function getValue() {
+        alert(document.getElementById("date").value)
+    }
+    function getValue() {
+        alert(document.getElementById("datetime-local").value)
+    }
+    function getValue() {
+        alert(document.getElementById("checkbox").checked)
+    }
+    function getValue() {
+        alert(document.getElementById("hidden").value)
+    }
+    function getValue() {
+        alert(document.getElementById("month").value)
+    }
+    function getValue() {
+        alert(document.getElementById("number").value)
+    }
+    function getValue() {
+        alert(document.getElementById("demo").value)
+    }
+    function readFile() {
+        let reader = new FileReader();
+        let file = document.getElementById('file').files[0];
+
+        reader.onload = function(e) {
+            document.getElementById('result').src = e.target.result;
+        }
+        reader.readAsDataURL(file)
+    }
+    function getValue() {
+        var radios = document.getElementsByName('gender');
+        var number_of_radios = radios.length;
+
+        for(var i = 0; i < number_of_radios; i++) {
+            if(radios[i].checked) {
+                alert(radios[i].value)
+            }
+        }
+    }
+     function getValue() {
+        alert(document.getElementById("range").value)
+    }
+     function getValue() {
+        alert(document.getElementById("search").value)
+    }
+     function getValue() {
+        alert(document.getElementById("tel").value)
+    }
+     function getValue() {
+        alert(document.getElementById("time").value)
+    }
+     function getValue() {
+        alert(document.getElementById("url").value)
+    }
+     function getValue() {
+        alert(document.getElementById("week").value)
+    }
+    function getValue() {
+        var value = document.getElementById("sample").value;
+        alert(value)
+    }
+    function getValue() {
+        var options = document.getElementById('sample1').options;
+        var options_count = document.getElementById('sample1').options.length;
+        var value = [];
+
+        for(var i = 0; i < options_count; i++) {
+            if(options[i].selected) {
+                value.push(options[i].value);
+            }
+        }
+        alert(JSON.stringify(value))
+    }
+ </script>
+</main>
+<footer>
+   <a href="home.html">🏠🏚</a>
+</footer>
+<!-- Text Area -->
+<textarea name="" id="" cols="30" rows="10" placeholder="Text Area..."></textarea>
+</body>
+</html>
