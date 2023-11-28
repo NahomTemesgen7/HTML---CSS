@@ -3,15 +3,15 @@ This repo are my HTML & CSS tutorial journey track
 ### Hello world 👋
 
 <!--
-**ElshadaiK/elshadaiK** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**NahomTemesgen7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
 -->
 
-- Wanna 💬? You can find me on [Instagram](https://instagram.com/nahom_temesgen_official), [Twitter](https://twitter.com/NahomTemesgen21), on [LinkedIn](https://www.linkedin.com/in/nahom-temesgen/), or email [Nahom Temesgen](mailto:mohanbenjamin63@gmail.com?subject=[GitHub]).
+- Wanna 💬? You can find me on [Instagram](https://instagram.com/nahom_temesgen_official), [Twitter](https://twitter.com/NahomTemesgen21), on [LinkedIn](https://www.linkedin.com/in/nahom-temesgen-76b21623b/), or email [Nahom Temesgen](mailto:mohanbenjamin63@gmail.com?subject=[GitHub]).
 
-- ⚡ I love 🏀⛹️‍♀️ (still learning 😃) and writing 🖋
+- ⚡ I love 🎮 (still learning 😃) and writing 🖋
 
 🕸 Personal webiste [Portfolio](https://nahomtemesgen7.github.io/)
 
