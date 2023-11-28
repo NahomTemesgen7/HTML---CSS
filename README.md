@@ -16,5 +16,5 @@ Here are some ideas to get you started:
 🕸 Personal webiste [Portfolio](https://elshadaik.github.io/)
 
 <a href="">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=elshadaik&show_icons=true&theme=tokyonight" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=nahomtemesgen7&show_icons=true&theme=tokyonight" />
 </a>
