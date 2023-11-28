@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 
 - ⚡ I love 🏀⛹️‍♀️ (still learning 😃) and writing 🖋
 
-🕸 Personal webiste [Portfolio](https://elshadaik.github.io/)
+🕸 Personal webiste [Portfolio](https://nahomtemesgen7.github.io/)
 
 <a href="">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=nahomtemesgen7&show_icons=true&theme=tokyonight" />
