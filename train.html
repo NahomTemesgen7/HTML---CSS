@@ -58,6 +58,13 @@
             font-size: 15px;
             cursor: pointer;
             margin-left: 8px;
+            transition: box-shadow 0.1s;
+        }
+        .tweet:hover {
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.856);
+        }
+        .tweet:active {
+            box-shadow: inset -3px -5px 10px rgba(0, 0, 0, 0.1)
         }
         #uber {
             background-color: black;
@@ -66,6 +73,13 @@
             height: 36px;
             width: 115px;
             cursor: pointer;
+            transition: background-color 0.1s;
+        }
+        #uber:hover {
+            background-color: rgba(8, 8, 8, 0.74);
+        }
+        #uber:active {
+            background-color: rgb(9, 9, 9);
         }
         #amazon {
             background-color: rgb(255, 216, 20);
@@ -76,6 +90,14 @@
             border-radius: 30px;
             font-weight: bold;
             cursor: pointer;
+            transition: background-color 0.1s;
+        }
+        #amazon:hover {
+            background-color: rgb(224, 187, 0);
+        }
+        #amazon:active {
+            /* background-color: rgb(219, 174, 0); */
+            opacity: 0.5;
         }
         #github {
             background-color: rgb(46, 164, 79);
@@ -86,6 +108,14 @@
             border-radius: 4px;
             font-weight: bold;
             cursor: pointer;
+            transition: box-shadow 0.1s;
+        }
+        #github:hover {
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.596);
+        }
+        #github:active {
+            /* box-shadow: inset 0px -2px 10px rgba(0, 0, 0, 0.4); */
+            opacity: 0.5;
         }
         #bootstrap1 {
             background-color: rgb(121, 82, 179);
@@ -97,18 +127,33 @@
             font-weight: bold;
             cursor: pointer;
             margin-right: 8px;
+            transition: background-color 0.1s;
+        }
+        #bootstrap1:hover {
+            background-color: rgb(100, 62, 159);
+        }
+        #bootstrap1:active {
+            background-color: rgb(80, 42, 149);
         }
         #bootstrap2 {
             background-color: rgb(255, 255, 255);
             color: rgb(108, 117, 125);
             border: solid;
             border-width: 1px;
-            border-color: rgb(121, 82, 179);
+            border-color: rgba(102, 100, 100, 0.829);
             height: 36px;
             width: 100px;
             border-radius: 2px;
             font-weight: bold;
             cursor: pointer;
+            transition: background-color 0.1s;
+        }
+        #bootstrap2:hover {
+            background-color: rgba(102, 100, 100, 0.829);
+            color: white;
+        }
+        #bootstrap2:active {
+            opacity: 0.5;
         }
         #linkedin1 {
             background-color: rgb(10, 102, 194);
@@ -120,6 +165,10 @@
             font-weight: bold;
             cursor: pointer;
             margin-right: 8px;
+            transition: background-color 0.1s;
+        }
+        #linkedin1:hover {
+            background-color: rgb(10, 82, 154);
         }
         #linkedin2 {
             background-color: rgb(255, 255, 255);
@@ -132,16 +181,26 @@
             border-radius: 30px;
             font-weight: bold;
             cursor: pointer;
+            transition: background-color 0.1s;
+        }
+        #linkedin2:hover {
+            border-color: #0a66c2d7;
+            border-width: 2px;
+            background-color: #0a66c238;
         }
         #amz {
             color: rgb(0, 113, 133);
+            transition: color 0.1s;
+        }
+        #amz:hover {
+            color:rgb(182, 112, 8);
         }
         #price {
             color: rgb(0, 188, 0);
             font-weight: bold;
         }
         #amaz1 {
-            background-color: rgb(255, 216, 20);
+            background-color: rgb(224, 187, 0);
             color: black;
             border: none;
             height: 32px;
@@ -150,6 +209,13 @@
             font-weight: bold;
             cursor: pointer;
             margin-right: 8px;
+            transition: background-color 0.1s;
+        }
+        #amaz1:hover {
+            background-color: rgb(199, 148, 8);
+        }
+        #amaz1:active {
+            opacity: 0.5;
         }
         #amaz2 {
             background-color: rgb(255, 164, 28);
@@ -160,6 +226,13 @@
             border-radius: 20px;
             font-weight: bold;
             cursor: pointer;
+            transition: background-color 0.1s;
+        }
+        #amaz2:hover {
+            background-color: rgb(238, 136, 11);
+        }
+        #amaz2:active {
+            opacity: 0.5;
         }
         #bold {
             font-weight: bold;
@@ -174,7 +247,7 @@
     <p>Today i went to the grocery store to buy some eggs
          and vegetable</p>
          <a href="https://google.com" target="_blank">Search with Google</a><br>
-         <a href="https://amazon.com" target="_blank">Back to amazon</a>
+         <a class="bta" href="https://amazon.com" target="_blank">Back to amazon</a>
          <p>Nike Black Running Shoes</p>
          <p>$39 - in stock.</p>
          <p>Free delivery tomorrow.</p>
@@ -196,7 +269,7 @@
     <h4>Linkedln</h4>
     <a href="https://www.linkedin.com" target="_blank"><button id="linkedin1">Apply on company website</button></a>
     <a href="https://www.linkedin.com" target="_blank"><button id="linkedin2">Save</button></a><br><br><br>
-    <a id="amz" href="https://amazon.com" target="_blank">Back to amazon</a>
+    <a id="amz" href="https://amazon.com" target="_blank">Back to Amazon</a>
          <h2>Nike Black Running Shoes</h2>
          <p id="price">$39 - in stock.</p>
          <p id="bold">Free delivery tomorrow.</p>
