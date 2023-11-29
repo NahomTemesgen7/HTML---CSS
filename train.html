@@ -8,6 +8,11 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <style>
+        /* body {
+            background-image: url('https://cdn.dribbble.com/users/1019864/screenshots/3079099/codeloop.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        } */
         .sub {
             background-color: #FF0000;
             color: white; border-color: #FF0000;
@@ -237,6 +242,125 @@
         #bold {
             font-weight: bold;
         }
+        .stretch {
+            background-color: green;
+            color: white;
+            padding: 7px 20px ;
+            text-align: center;
+            font-size: 20px;
+            border-style: none;
+            transition: padding 0.6s;
+        }
+        .stretch:hover {
+            padding: 18px 42px;
+        }
+        .Shadow {
+            background-color: green;
+            color: white;
+            padding: 7px 20px ;
+            text-align: center;
+            font-size: 20px;
+           border-style: solid ;
+           border-color: darkgreen;
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.856);
+        }
+        .Shadow:active {
+            box-shadow: none;
+            /* margin: 3px 5px 10px; */
+            margin: 7px 10px;
+            border-style: none;
+        }
+        .one {
+            background-color: green;
+            color: white;
+            padding: 7px 15px ;
+            text-align: center;
+            font-size: 20px;
+           border-style: solid ;
+           border-color: darkgreen;
+           margin: 0 10px;
+           transition: padding 0.1s;
+        }
+        .one:hover {
+            padding: 7px 25px;
+        }
+        .two {
+            background-color: green;
+            color: white;
+            padding: 7px 20px ;
+            text-align: center;
+            font-size: 20px;
+           border-style: solid ;
+           border-color: darkgreen;
+           margin: 0 13px;
+           transition: padding 0.1s;
+        }
+        .two:hover {
+            padding: 7px 30px;
+        }
+        .three {
+            background-color: green;
+            color: white;
+            padding: 7px 25px ;
+            text-align: center;
+            font-size: 20px;
+           border-style: solid ;
+           border-color: darkgreen;
+           margin: 10 0px;
+           transition: padding 0.1s;
+        }
+        .three:hover {
+            padding: 7px 35px;
+        }
+        div {
+            margin: 0 10px;
+        }
+        div > a {
+            margin: 0 10px;
+        }
+        .title {
+            font-family: arial;
+            font-weight: bold;
+            font-size: 18px;
+            width: 300px;
+            line-height: 23px;
+            margin-bottom: 1px;
+        }
+        .stats {
+            font-family: arial;
+            font-size: 14px;
+            margin-top:0;
+            color: rgb(96,96,96);
+            /* margin-bottom: 20px; */
+        }
+        .author {
+            font-family: arial;
+            font-size: 14px;
+            color: rgb(96,96,96);
+            margin-top:0;
+            margin-bottom: 20px;
+        }
+        .description {
+            font-family: arial;
+            font-size: 14px;
+            color: rgb(96,96,96);
+            width: 280px;
+            line-height: 19px;
+            margin-bottom: 90px;
+        }
+        .apple {
+            font-family: arial;
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+            padding: 12px 0;
+            margin-bottom: 50px;
+        }
+        span:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -253,7 +377,9 @@
          <p>Free delivery tomorrow.</p>
          <button>Add to cart</button> <button>Buy now</button>
          <hr>
+
     <h3>Exercise 2</h3>     
+
     <button class="sub">SUBSCRIBE</button>
     <button class="join">JOIN</button>
     <button class="tweet">Tweet</button>
@@ -274,7 +400,31 @@
          <p id="price">$39 - in stock.</p>
          <p id="bold">Free delivery tomorrow.</p>
          <a href="https://www.amazon.com" target="_blank"><button id="amaz1">Add to Cart</button></a>
-         <a href="https://www.amazon.com" target="_blank"><button id="amaz2">Buy now</button></a>
-         <img width="400" src="https://cdn.dribbble.com/users/1019864/screenshots/3079099/codeloop.gif" alt="Coding">
+         <a href="https://www.amazon.com" target="_blank"><button id="amaz2">Buy now</button></a><br>
+    <hr>
+    <h3>Exercise 3</h3>
+
+    <div>
+        <p>Pagination</p>
+        <button>Back</button> <a href="" >1</a><a href="" >2</a><a href="" >3</a><a href="">4</a><a href="">5</a><button>Next</button>
+    </div><br>
+    <a href=""><button class="stretch">Stretch</button></a>
+    <p>3D Click</p>
+    <a href=""><button class="Shadow">Shadow</button></a><br><br><br>
+    <p>Margin and Padding together</p>
+    <button class="one">One</button> <button class="two">Two</button> <Button class="three">Three</Button>
+    <hr>
+    <h3>Exercise 4</h3>
+    <p class="title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+    <p class="stats">3.4M views · 6 months ago</p>
+    <p class="author">Marques Brownlee ✓</p>
+    <p class="description">Talking tech and AI on the heels of Google I/O.
+         Also a daily driver phone reveal from Google's CEO. 
+         Shoutout to Sundar!</p>
+    <p class="apple">Shop early for the best selection of holiday favourites. <span> Shop now ></span></p> 
+    <p class="tahoma">This is Tahoma Font</p>
+    <p class="sales">Biggest deals of the Year <br> <span>Sales end Tuesday</span></p>
+    <p class="verdana"></p>
+    <p class="arial"></p>
 </body>
 </html>
