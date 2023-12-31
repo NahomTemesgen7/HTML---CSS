@@ -18,15 +18,40 @@
         .search-bar {
             font-size: 20px;
             margin-left: 20px;
-            display: flex;
+            display: block;
+        }
+        .video-title {
+            width: 230px;
+        }
+        .video-author {
+            display: block;
+            margin: 2px 0px;
+        }
+        .video-status {
+            display: inline-block;
+            margin: 2px 0px;
+        }
+        .video-preview {
+            width: 300px;
+            display: inline-block;
+            margin-right: 10px;
+            vertical-align:top;
         }
     </style>
 </head>
 <body>
-    <img class="thumbnail" src="Thumbnail/thumbnail-1.webp" alt="">
     <input class="search-bar" type="text" placeholder="Search">
-    <p>Talking Tech and AI with Googlr CEO Sunder Pichal</p>
-    <p>Marques Brownlee</p>
-    <p>3.4M views - 6 months</p>
+    <div class="video-preview">
+        <img class="thumbnail" src="Thumbnail/thumbnail-1.webp" alt="">
+        <p class="video-title">Talking Tech and AI with Googlr CEO Sunder Pichal</p>
+        <p class="video-author">Marques Brownlee</p>
+        <p class="video-status">3.4M views - 6 months</p>
+    </div>
+    <div class="video-preview">
+        <img class="thumbnail" src="Thumbnail/thumbnail-2.webp" alt="">
+        <p class="video-title">Try Not To Laugh Challenge #9</p>
+        <p class="video-author">Markipilier</p>
+        <p class="video-status">19M views - 4 years ago</p>
+    </div>
 </body>
 </html>
